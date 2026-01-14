@@ -2,25 +2,37 @@
 
 Repository “contenitore” per guide Meshtastic: **app**, **firmware**, **hardware**, **MQTT**, **mappe**, troubleshooting e best practice operative.
 
+Fonti principali:
+- https://meshtastic.org/
+- https://www.loraitalia.it/
+
 ## Sito (documentazione)
-Il sito è generato con **MkDocs + Material** (statico, veloce, ottimo per docs).
+Il sito è generato con **MkDocs + Material**.
 
 ### Avvio rapido (locale)
 ```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate
 source .venv/bin/activate
 
-pip install -r requirements.txt
-mkdocs serve
+python -m pip install -r requirements.txt
+python -m mkdocs serve
 ```
+
 Apri: http://127.0.0.1:8000
+
+> Nota: usare `python -m mkdocs ...` evita problemi di PATH quando il sistema ha già `mkdocs` installato via apt.
 
 ### Deploy su GitHub Pages
 Il deploy è gestito da GitHub Actions (`.github/workflows/gh-pages.yml`).
 
 Dopo il push su GitHub:
 - **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+## Lingue (ITA + EN)
+Il sito è in italiano (default) ed è predisposto per inglese usando il plugin `mkdocs-static-i18n`.
+
+- Italiano: `docs/*.md`
+- Inglese: aggiungi traduzioni con suffisso `*.en.md` (fallback automatico all’italiano se manca)
 
 ## Struttura
 - `docs/` contenuti del sito (Markdown + assets)

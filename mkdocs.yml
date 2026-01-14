@@ -1,14 +1,14 @@
 site_name: Meshtastic Guides
-site_description: Guide complete su app, firmware, hardware, MQTT e mappe per Meshtastic
-site_url: https://Nicco-Male.github.io/meshtastic-guides/
+site_description: Guide complete su app, firmware, hardware, MQTT e mappe per Meshtastic (ITA + EN)
+site_url: https://nicco-male.github.io/meshtastic-guides/
 repo_url: https://github.com/Nicco-Male/meshtastic-guides
-repo_name: meshtastic-guides
+repo_name: Nicco-Male/meshtastic-guides
 
 theme:
   name: material
   language: it
   features:
-    - navigation.instant
+    # navigation.instant è sconsigliato con siti multi-lingua (i18n)
     - navigation.tracking
     - navigation.sections
     - navigation.top
@@ -33,6 +33,19 @@ theme:
     repo: fontawesome/brands/github
 
 plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: it
+          name: Italiano
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+
   - search
   - glightbox
   - minify:
