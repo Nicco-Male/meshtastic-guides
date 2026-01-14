@@ -105,6 +105,7 @@ nav:
       - Aggiornare firmware: firmware/update.md
       - Config backup/restore: firmware/backup-restore.md
       - Profili e preset: firmware/presets.md
+      - Varianti firmware (Italia): firmware/variants.md
 
   - Hardware:
       - Panoramica: hardware/index.md

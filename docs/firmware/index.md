@@ -20,3 +20,11 @@ Qui trovi le operazioni “da laboratorio”:
 5. Test base: connessione + messaggi
 
 Vai a: **Config backup/restore**.
+
+---
+
+## Quale firmware scegliere (Italia)
+
+In Italia trovi spesso sia il firmware ufficiale sia quello con patch LoraItalia.
+
+Vai a: **Varianti firmware (Italia)**.
