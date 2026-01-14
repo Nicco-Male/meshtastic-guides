@@ -18,3 +18,10 @@ The public broker applies restrictions (zero-hop policy, filtering, reduced posi
 LoraItalia describes gateway nodes that route traffic to an MQTT broker, and their custom firmware sets a default MQTT topic “ready” for the Italian server.
 
 Broker host/user/pass are not included here unless clearly published officially.
+---
+
+## Operational note (Italy-style best practice)
+In many Italian community setups, **MQTT is used for telemetry/ingest** (maps, dashboards, history),
+not to “bounce packets” and amplify mesh traffic.
+
+If you bridge brokers, keep it **selective** (filtered topics, no loops) with clear rules.

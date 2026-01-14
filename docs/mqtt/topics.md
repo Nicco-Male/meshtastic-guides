@@ -1,5 +1,8 @@
 # Topic e sotto-topic (Meshtastic su MQTT)
 
+![Albero mentale dei topic](../assets/diagrams/mqtt-topic-tree.svg)
+
+
 Qui mettiamo ordine nel caos: **la struttura dei topic** è il vero “cavo di rete mentale” di Meshtastic su MQTT.
 
 ---
@@ -45,7 +48,7 @@ Se abiliti `JSON Enabled`, alcuni tipi di pacchetto vengono serializzati in JSON
 
 ⚠️ JSON **non è supportato su nRF52**.
 
-Meshtastic elenca i portnum serializzati (testo, telemetria, nodeinfo, posizione, waypoint, neighborinfo, traceroute, ecc.).
+Meshtastic elenca i portnum serializzati (testo, telemetria, nodeinfo, posizione, waypoint, ecc.).
 
 ---
 
@@ -101,7 +104,3 @@ Così puoi fare ACL e bridge Mosquitto senza “aspirare il mondo intero”.
 - Vedere tutto (protobuf incluso): utile solo per test brevi:
   - `mosquitto_sub -t 'msh/EU_868/#' -v`
 
----
-
-## Fonti
-- Meshtastic: “MQTT | Integrations Overview” (sezione Topics, JSON downlink, ecc.)

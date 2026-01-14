@@ -17,3 +17,4 @@ Formato consigliato:
 - Data
 - Sezioni aggiornate
 - Cosa cambia per il lettore
+- 2026-01-14: integrazione MQTT/hardware/firmware + diagrammi (IT/EN)

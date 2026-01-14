@@ -1,43 +1,32 @@
 # Firmware variants (Italy)
 
-In Italy you’ll most commonly encounter two “families”:
+In Italy you will most commonly see **two options**:
 
-1) **Official Meshtastic firmware (upstream)**  
-2) **LoraItalia patched firmware** (a fork based on Meshtastic)
+1) **Official Meshtastic firmware**
+2) **LoraItalia firmware (with patches)**
 
 ---
 
-## Key limitation
-Meshtastic **does not support OTA updates over LoRa**. Firmware updates require USB / DFU / a flasher depending on your device.
+## Key rule: how updates work
+
+Meshtastic **does not update OTA over LoRa**. Firmware updates require **USB / DFU / a flasher** depending on your device.
 
 ---
 
 ## 1) Official Meshtastic firmware
-Meshtastic publishes:
-- **Beta** releases (recommended for most users)
-- **Alpha** releases (newer features, higher risk)
+- **Beta**: recommended for regular use
+- **Alpha**: newer changes, higher risk
 
-Typical flashing methods:
-- **Web flasher** (recommended for ESP32)
-- **UF2 drag & drop** for many nRF52 / RP2040 devices
+Flashing depends on hardware (ESP32 vs nRF52, etc.). Always make a config backup first.
 
 ---
 
-## 2) LoraItalia patched firmware
-A Meshtastic-based firmware with Italy-focused patches (MQTT defaults, neighbor behavior, community-specific tweaks, etc.).  
-Follow LoraItalia’s notes carefully, especially for MQTT gateways.
-
----
-
-## Quick pick
-- Choose **official Meshtastic** for upstream stability/support and neutral defaults.
-- Choose **LoraItalia** if you want the Italy ecosystem defaults and their recommended patches.
+## 2) LoraItalia firmware (patches)
+A Meshtastic-based firmware with Italy-oriented changes (MQTT defaults, community guidance, etc.).  
+If you connect nodes to MQTT, follow LoraItalia operational recommendations to avoid adding noise to the mesh.
 
 ---
 
 ## Sources
-- https://meshtastic.org/docs/faq/
-- https://meshtastic.org/downloads/
-- https://meshtastic.org/docs/getting-started/flashing-firmware/
-- https://www.loraitalia.it/firmware-loraitalia/
-- https://github.com/LoraItalia/loraitalia-firmware
+- https://meshtastic.org/docs/
+- https://www.loraitalia.it/

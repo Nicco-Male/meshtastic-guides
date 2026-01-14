@@ -1,8 +1,11 @@
 # Hardware consigliato
 
+![Scelta hardware per use-case](../assets/diagrams/hardware-chooser.svg)
+
+
 Questa pagina non è una “classifica universale”: è una guida pratica per scegliere **in base all’uso**.
 
-Meshtastic gira su tantissimi dispositivi (RAK, LILYGO, Heltec, Seeed, ecc.) e l’elenco ufficiale è lungo.  
+Meshtastic gira su tantissimi dispositivi (RAK, LILYGO, Heltec, Seeed, ecc.) e l’elenco ufficiale è lungo.
 Qui lo rendiamo digeribile.
 
 ---
@@ -10,18 +13,18 @@ Qui lo rendiamo digeribile.
 ## 1) Nodo “client” (da tasca / da zaino)
 
 ### T-Deck (chat e tastiera)
-È un dispositivo standalone con **schermo + tastiera**.  
+È un dispositivo standalone con **schermo + tastiera**.
 Pro:
 - ottimo per chattare senza telefono
-- Wi‑Fi + BT integrati (ESP32‑S3)  
+- Wi‑Fi + BT integrati (ESP32‑S3)
 Contro:
 - consumi tipicamente più alti rispetto a nRF52 (dipende da uso display/Wi‑Fi)
 
 ### T-Echo (autonomia)
-All‑in‑one con e‑ink e GPS, basato su **nRF52840 “low‑power”** per lunga durata batteria.  
+All‑in‑one con e‑ink e GPS, basato su **nRF52840 “low‑power”** per lunga durata batteria.
 Pro:
 - autonomia ottima
-- GPS integrato  
+- GPS integrato
 Contro:
 - niente Wi‑Fi (di solito non serve su un client)
 - JSON su MQTT non supportato su nRF52 (se ti interessa fare gateway con JSON)
@@ -33,13 +36,13 @@ Contro:
 Qui vince la triade: **bassi consumi + SX1262 + stabilità**.
 
 ### Heltec Mesh Node T114 (nRF52840 + SX1262)
-È in lista ufficiale come modello nRF52840 + SX1262, con GPS opzionale.  
+È in lista ufficiale come modello nRF52840 + SX1262, con GPS opzionale.
 Per un nodo fisso:
 - nRF52840 = profilo consumi più favorevole
 - perfetto per ruolo router / repeater (soprattutto se alimentato a batteria/solare)
 
 ### RAK / WisMesh basati su nRF52840
-Esempio: WisMesh Pocket V2 (nRF52840 + SX1262).  
+Esempio: WisMesh Pocket V2 (nRF52840 + SX1262).
 RAK ha anche un ecosistema di moduli (GPS, RTC, sensori, ethernet).
 
 ---
@@ -70,8 +73,3 @@ Parti così:
 - **Vuoi Wi‑Fi/MQTT on-board?** spesso ESP32‑S3.
 - **Vuoi “testare e smanettare”?** ESP32 va benissimo, ma occhio ai consumi in campo.
 
----
-
-## Fonti
-- Meshtastic: “Devices | Supported Hardware Overview”
-- Meshtastic: “MQTT | Integrations Overview” (nota JSON non supportato su nRF52)

@@ -1,5 +1,8 @@
 # Android: connessione al nodo (Bluetooth / Wi‑Fi)
 
+![Schema rapido connessione](../../assets/diagrams/app-connection-flow.svg)
+
+
 Questa guida assume che il nodo sia già acceso.
 
 ---

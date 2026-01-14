@@ -1,5 +1,8 @@
 # iOS: connessione al nodo
 
+![Schema rapido connessione](../../assets/diagrams/app-connection-flow.svg)
+
+
 Su iOS, la connessione più comune è via **Bluetooth** (specie su device portatili).
 
 ---

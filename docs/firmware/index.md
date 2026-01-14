@@ -23,8 +23,5 @@ Vai a: **Config backup/restore**.
 
 ---
 
-## Quale firmware scegliere (Italia)
-
-In Italia trovi spesso sia il firmware ufficiale sia quello con patch LoraItalia.
-
-Vai a: **Varianti firmware (Italia)**.
+## Italia: quale firmware?
+Vedi: **Varianti firmware (Italia)**.

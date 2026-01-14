@@ -1,97 +1,68 @@
 # Varianti firmware (Italia)
 
-In Italia, nella pratica, ti imbatti quasi sempre in **due “famiglie”** di firmware:
+![Scelta firmware (Italia)](../assets/diagrams/firmware-italy-choices.svg)
 
-1) **Firmware ufficiale Meshtastic** (upstream)  
-2) **Firmware con patch LoraItalia** (fork basato su Meshtastic)
 
-Questa pagina ti aiuta a scegliere senza farti prendere in ostaggio dalle leggende metropolitane.
+In Italia, nella pratica, trovi quasi sempre **due scelte**:
 
----
+1) **Firmware ufficiale Meshtastic**
+2) **Firmware LoraItalia (con patch)**
 
-## Prima regola: cosa non è possibile
-
-Meshtastic **non supporta aggiornamenti OTA via LoRa**: per aggiornare devi usare USB / DFU / flasher, a seconda dell’architettura.  
-(Tradotto: niente “update over the air” via radio.)
+Questa pagina ti aiuta a scegliere senza confondere le idee.
 
 ---
 
-## 1) Firmware ufficiale Meshtastic (upstream)
+## Prima regola: come si aggiorna davvero
 
-È il firmware “standard” del progetto Meshtastic.
+Meshtastic **non aggiorna “over-the-air” via LoRa**.  
+Per aggiornare firmware si usa **USB / DFU / flasher** a seconda del dispositivo.
 
-### Release: Beta vs Alpha
-Meshtastic pubblica due tipi di release:
-
-- **Beta**: consigliata nella maggior parte dei casi (stabilità migliore).
-- **Alpha**: per chi vuole testare novità e fix più recenti, accettando più rischio di bug/instabilità.
-
-### Dove si scarica / come si flasha
-- **Downloads & Web flasher**: il modo più semplice per ESP32 e in generale per iniziare.
-- **Drag & drop / UF2**: per molte board nRF52 / RP2040 (modalità bootloader → copi il file).
+> Quindi: prima di toccare un nodo remoto, pianifica come ci rimetti mano se qualcosa va storto.
 
 ---
 
-## 2) Firmware con patch LoraItalia (Italia)
+## 1) Firmware ufficiale Meshtastic
 
-LoraItalia mantiene un firmware **basato sul firmware Meshtastic**, con patch pensate per l’ecosistema italiano.
+È la scelta “standard”: documentazione, tool e flussi sono allineati con il progetto.
 
-### Cosa cambia (in sintesi)
-Dalla documentazione LoraItalia, tra le modifiche più rilevanti:
+### Beta vs Alpha (in due righe)
+- **Beta**: scelta consigliata per uso normale (più stabile).
+- **Alpha**: per testare novità/fix recenti (più rischio).
 
-- **Traceroute** richiedibile più spesso: intervallo minimo **5 secondi** (invece di 30s).
-- **Topic MQTT di default** già impostato per essere pronto al server italiano.
-- **Remote hardware module** (GPIO remoto) riaggiunto/riattivato.
-- **Loghi e riferimenti** aggiornati (branding LoraItalia).
-- **Neighbor**: trasmissione riattivata sul canale primario (ripristino comportamento precedente).
-  - Per far “tornare” le linee neighbor in mappa: riattiva il modulo e abilita “Transmit over LoRa”.
-  - Nota LoraItalia: **i nodi connessi a MQTT devono tenere “Transmit over LoRa” DISATTIVATO**.
-- **MQTT forwarding**: “tutti i pacchetti verranno reinoltrati sulla rete indipendentemente dal flag OkToMqtt”.
+### Flash: cosa aspettarti
+Dipende dall’hardware:
+- molte board **ESP32** usano web flasher / seriale
+- molte **nRF52** usano DFU/UF2 (drag & drop) o DFU via tool
 
-> In pratica: ci sono scelte “opinionate” su neighbor e forwarding. Ottime se sai cosa vuoi, pericolose se fai da gateway senza capire il flusso.
-
-### Firmware precompilati e “on demand”
-LoraItalia:
-- pubblica firmware precompilati per i device più comuni
-- offre anche un servizio “on demand” per fissare nel firmware parametri come `longName`, `shortName`, `region`, `modem preset`  
-  (utile per nodi remoti: maggiore resilienza se si corrompe il filesystem)
-
-Sulla pagina LoraItalia trovi anche una **versione consigliata** “in questo momento” (ad esempio, in una fase è stata indicata 2.6.10): controlla sempre la pagina perché può cambiare.
-
-### Come flashare (nota pratica)
-- **nRF52**: tipicamente DFU/UF2 (flusso standard).
-- **ESP32**: LoraItalia segnala che con il flasher ufficiale non sempre si ha successo su alcune schede e propone un flusso alternativo.
-  - Se segui questa strada: fai SEMPRE **backup config + chiavi** perché alcune modalità di flash (es. `.factory` a `0x0`) possono essere **distruttive**.
+**Sempre:** fai backup config prima (vedi pagina *Backup/Restore*).
 
 ---
 
-## Quale scegliere? (scelta rapida)
+## 2) Firmware LoraItalia (con patch)
 
-### Scegli *Meshtastic ufficiale* se…
-- vuoi stare “upstream”, con compatibilità ampia e doc ufficiali
-- sei fuori dal contesto LoraItalia o vuoi una configurazione neutra
-- vuoi provare feature nuove (Alpha) appena escono
+È un firmware basato su Meshtastic con modifiche pensate per l’ecosistema italiano.
 
-### Scegli *LoraItalia patch* se…
-- ti interessa l’integrazione pronta per l’ecosistema italiano (MQTT/topic default, behavior specifici, ecc.)
-- vuoi usare le patch “di comunità” (neighbor, remote hardware, ecc.) seguendo le raccomandazioni LoraItalia
+### Cosa cambia (in pratica)
+Dalle note pubbliche LoraItalia, le differenze più tipiche includono:
+- impostazioni **MQTT** più “pronte” per i server/community
+- comportamenti legati a **neighbor / collegamenti** (attenzione se fai da gateway)
+- funzionalità abilitate/riaggiunte in base alle esigenze community
 
----
+> Importante: **se un nodo è collegato a MQTT**, segui le raccomandazioni LoraItalia su cosa trasmettere o non trasmettere via LoRa, per non aumentare rumore/spam in mesh.
 
-## Compatibilità tra nodi (mix firmware)
-In generale i nodi Meshtastic parlano lo stesso “linguaggio” di base, ma:
-- alcune funzioni possono comportarsi diversamente (es. neighbor/MQTT forwarding)
-- i default (topic, moduli, policy) possono cambiare
-
-Se fai da gateway MQTT, evita esperimenti creativi in produzione: prova prima in laboratorio.
+### Quando sceglierlo
+- se vuoi un setup “Italia-friendly” con impostazioni già in linea con la community
+- se segui le linee guida LoraItalia (soprattutto per MQTT/neighbor)
 
 ---
 
-## Fonti
-- Meshtastic: FAQ, Downloads, Flashing firmware  
-  - https://meshtastic.org/docs/faq/  
-  - https://meshtastic.org/downloads/  
-  - https://meshtastic.org/docs/getting-started/flashing-firmware/
-- LoraItalia: Firmware LoraItalia + repo patch  
-  - https://www.loraitalia.it/firmware-loraitalia/
-  - https://github.com/LoraItalia/loraitalia-firmware
+## Scelta rapida
+
+- **Scegli ufficiale Meshtastic** se vuoi neutralità, compatibilità e doc ufficiale.
+- **Scegli LoraItalia (patch)** se vuoi essere allineato alla community italiana e alle sue regole operative.
+
+---
+
+## Fonti (da consultare sempre, perché possono cambiare)
+- Meshtastic docs: https://meshtastic.org/docs/
+- LoraItalia: https://www.loraitalia.it/
