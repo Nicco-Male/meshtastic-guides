@@ -8,3 +8,5 @@ Qui mettiamo le guide “fisiche”:
 
 !!! note "Ordine di priorità reale"
     In Meshtastic, spesso **antenna + posizione** contano più di qualsiasi tweak software.
+
+- hardware consigliato (scelta board per use-case)

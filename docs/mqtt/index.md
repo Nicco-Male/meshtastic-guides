@@ -27,3 +27,9 @@ Meshtastic può:
 - **Modulo MQTT (client/proxy)**: configurazione sul nodo
 - **Bridge Mosquitto**: lato server (tua infrastruttura)
 - **Telemetria**: come pubblicarla e usarla bene
+
+
+## Nuove pagine
+
+- **Server & credenziali**: quali valori usare per pubblico/privato e come non leakare segreti
+- **Topic e sotto-topic**: struttura `msh/REGION/...`, JSON vs protobuf, pattern per ACL e bridge

@@ -74,8 +74,6 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Come usare queste guide: howto.md
-
   - Fondamenta:
       - Panoramica: fundamentals/index.md
       - Canali & chiavi (PSK): fundamentals/channels-psk.md
@@ -110,12 +108,15 @@ nav:
 
   - Hardware:
       - Panoramica: hardware/index.md
+      - Hardware consigliato: hardware/recommended.md
       - Antenne & RF: hardware/antennas-rf.md
       - Alimentazione & solare: hardware/power-solar.md
       - GPS & sensori: hardware/gps-sensors.md
 
   - MQTT & integrazioni:
       - Panoramica: mqtt/index.md
+      - Server & credenziali: mqtt/servers.md
+      - Topic e sotto-topic: mqtt/topics.md
       - Modulo MQTT (client/proxy): mqtt/module.md
       - Bridge Mosquitto: mqtt/bridges.md
       - Telemetria: mqtt/telemetry.md
