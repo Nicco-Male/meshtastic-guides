@@ -1,0 +1,118 @@
+site_name: Meshtastic Guides
+site_description: Guide complete su app, firmware, hardware, MQTT e mappe per Meshtastic
+site_url: https://YOUR_GITHUB_USERNAME.github.io/meshtastic-guides/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/meshtastic-guides
+repo_name: meshtastic-guides
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Passa a scuro
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/white-balance-sunny
+        name: Passa a chiaro
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - glightbox
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+      locale: it
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Come usare queste guide: howto.md
+
+  - Fondamenta:
+      - Panoramica: fundamentals/index.md
+      - Canali & chiavi (PSK): fundamentals/channels-psk.md
+      - Regione & preset LoRa: fundamentals/region-presets.md
+      - Hop limit & routing: fundamentals/hops-routing.md
+      - Bluetooth vs Wi‑Fi: fundamentals/bt-vs-wifi.md
+
+  - App (Android/iOS):
+      - Panoramica: apps/index.md
+      - Android:
+          - Panoramica: apps/android/index.md
+          - Connessione: apps/android/connection.md
+          - Messaggi & canali: apps/android/messages-channels.md
+          - Mappa: apps/android/map.md
+          - Configurazioni: apps/android/config.md
+          - Moduli: apps/android/modules.md
+          - Troubleshooting: apps/android/troubleshooting.md
+      - iOS (iPhone/iPad):
+          - Panoramica: apps/ios/index.md
+          - Connessione: apps/ios/connection.md
+          - Messaggi & canali: apps/ios/messages-channels.md
+          - Mappa & offline: apps/ios/map-offline.md
+          - Configurazioni: apps/ios/config.md
+          - Shortcuts (Siri): apps/ios/shortcuts.md
+          - Troubleshooting: apps/ios/troubleshooting.md
+
+  - Firmware:
+      - Panoramica: firmware/index.md
+      - Aggiornare firmware: firmware/update.md
+      - Config backup/restore: firmware/backup-restore.md
+      - Profili e preset: firmware/presets.md
+
+  - Hardware:
+      - Panoramica: hardware/index.md
+      - Antenne & RF: hardware/antennas-rf.md
+      - Alimentazione & solare: hardware/power-solar.md
+      - GPS & sensori: hardware/gps-sensors.md
+
+  - MQTT & integrazioni:
+      - Panoramica: mqtt/index.md
+      - Modulo MQTT (client/proxy): mqtt/module.md
+      - Bridge Mosquitto: mqtt/bridges.md
+      - Telemetria: mqtt/telemetry.md
+
+  - Mappe:
+      - Panoramica: maps/index.md
+      - Offline maps iOS: maps/ios-offline.md
+      - Tile / download: maps/tiles-download.md
+      - Device UI maps (T-Deck, ecc.): maps/device-ui.md
+
+  - Reference:
+      - Glossario: reference/glossary.md
+      - Changelog del sito: reference/changelog.md
