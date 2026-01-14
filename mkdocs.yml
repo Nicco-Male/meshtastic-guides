@@ -1,7 +1,7 @@
 site_name: Meshtastic Guides
 site_description: Guide complete su app, firmware, hardware, MQTT e mappe per Meshtastic
-site_url: https://YOUR_GITHUB_USERNAME.github.io/meshtastic-guides/
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/meshtastic-guides
+site_url: https://Nicco-Male.github.io/meshtastic-guides/
+repo_url: https://github.com/Nicco-Male/meshtastic-guides
 repo_name: meshtastic-guides
 
 theme:
