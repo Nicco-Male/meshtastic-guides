@@ -8,8 +8,8 @@ Ti mostra nodi, posizione (se condivisa) e “tracce” utili per capire copertu
 ## Mappa (Mesh Map)
 
 <div class="screenshot-grid">
-  <img src="../../assets/screenshots/ios/ios-map-01.png" alt="Map 01">
-  <img src="../../assets/screenshots/ios/ios-map-02.png" alt="Map 02">
+  <img src="../../../assets/screenshots/ios/ios-map-01.png" alt="Map 01">
+  <img src="../../../assets/screenshots/ios/ios-map-02.png" alt="Map 02">
 </div>
 
 ## Consigli pratici

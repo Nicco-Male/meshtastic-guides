@@ -13,8 +13,8 @@ Per nodi fissi puoi anche usare **Wi‑Fi** quando il tuo dispositivo/firmware l
 4. Attendi lo stato **Connected**
 
 <div class="screenshot-grid">
-  <img src="../../assets/screenshots/ios/ios-connect-01.png" alt="Connect 01">
-  <img src="../../assets/screenshots/ios/ios-connect-02.png" alt="Connect 02">
+  <img src="../../../assets/screenshots/ios/ios-connect-01.png" alt="Connect 01">
+  <img src="../../../assets/screenshots/ios/ios-connect-02.png" alt="Connect 02">
 </div>
 
 ### Se non lo trova / non si connette
@@ -26,7 +26,7 @@ Per nodi fissi puoi anche usare **Wi‑Fi** quando il tuo dispositivo/firmware l
 - Riavvia il nodo
 
 <div class="screenshot-grid">
-  <img src="../../assets/screenshots/ios/ios-bluetooth-01.png" alt="Bluetooth 01">
+  <img src="../../../assets/screenshots/ios/ios-bluetooth-01.png" alt="Bluetooth 01">
 </div>
 
 ---
