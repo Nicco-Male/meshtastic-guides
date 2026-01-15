@@ -45,6 +45,51 @@ plugins:
         - locale: en
           name: English
           build: true
+          nav_translations:
+            Home: Home
+            Fondamentali: Fundamentals
+            Panoramica: Overview
+            Canali & chiavi (PSK): Channels & keys (PSK)
+            Regione & preset LoRa: Region & LoRa presets
+            Come funziona la mesh: How the mesh works
+            Hop limit & routing: Hop limit & routing
+            Bluetooth vs Wi‑Fi: Bluetooth vs Wi‑Fi
+            App (Android/iOS): Apps (Android/iOS)
+            Android: Android
+            Connessione: Connection
+            Messaggi & canali: Messages & channels
+            Mappa: Map
+            Configurazioni: Configuration
+            Moduli: Modules
+            Troubleshooting: Troubleshooting
+            iOS (iPhone/iPad): iOS (iPhone/iPad)
+            Mappa & offline: Map & offline
+            Shortcuts (Siri): Shortcuts (Siri)
+            Firmware: Firmware
+            Aggiornare firmware: Update firmware
+            Config backup/restore: Config backup/restore
+            Profili e preset: Profiles and presets
+            Varianti firmware (Italia): Firmware variants (Italy)
+            Hardware: Hardware
+            Hardware consigliato: Recommended hardware
+            Antenne & RF: Antennas & RF
+            Alimentazione & solare: Power & solar
+            GPS & sensori: GPS & sensors
+            MQTT & integrazioni: MQTT & integrations
+            Server & credenziali: Servers & credentials
+            Topic e sotto-topic: Topics & subtopics
+            Modulo MQTT (client/proxy): MQTT module (client/proxy)
+            Bridge Mosquitto: Mosquitto bridge
+            Telemetria: Telemetry
+            Mappe: Maps
+            Offline maps iOS: Offline maps (iOS)
+            Tile / download: Tiles / download
+            Device UI maps (T-Deck, ecc.): Device UI maps (T-Deck, etc.)
+            Reference: Reference
+            Troubleshooting & FAQ: Troubleshooting & FAQ
+            Glossario: Glossary
+            Risorse esterne: External resources
+            Changelog del sito: Site changelog
 
   - search
   - glightbox
