@@ -1,8 +1,5 @@
 # Topic e sotto-topic (Meshtastic su MQTT)
 
-![Albero mentale dei topic](../assets/diagrams/mqtt-topic-tree.svg)
-
-
 Qui mettiamo ordine nel caos: **la struttura dei topic** è il vero “cavo di rete mentale” di Meshtastic su MQTT.
 
 ---

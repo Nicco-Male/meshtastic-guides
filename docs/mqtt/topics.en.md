@@ -1,8 +1,5 @@
 # Topics & subtopics (EN)
 
-![Topic hierarchy (mental model)](../assets/diagrams/mqtt-topic-tree.svg)
-
-
 This is a minimal English version.
 
 - Default root topic: `msh/REGION`

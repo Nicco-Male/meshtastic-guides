@@ -1,22 +1,37 @@
 # App iOS (iPhone/iPad): panoramica
 
-L’app Meshtastic per iOS copre le funzioni principali:
-- connessione al nodo (Bluetooth, e in alcuni casi rete/Wi‑Fi a seconda dell’hardware)
-- messaggi (canali e DM)
-- nodi e mappa
-- configurazione radio, canali, posizione e moduli (dove supportato)
-
-In più, su iOS c’è un’attenzione particolare a:
-- integrazione con **Apple Shortcuts / Siri** (se abilitata)
-- gestione “pulita” delle connessioni
+L’app Meshtastic su iOS è pensata per essere “radio‑first”: collegati al nodo, scegli canali, manda messaggi e controlla mappa/nodi.
 
 ---
 
-## Prima configurazione (ordine raccomandato)
+## Schermate principali (tab)
 
-1. Connettiti al nodo
-2. Imposta regione + preset
-3. Imposta canale (nome + PSK)
-4. Test messaggi
-5. (Opzionale) mappa / posizione
-6. (Opzionale) shortcuts
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/ios/ios-messages-01.png" class="glightbox" data-gallery="ios-main-tabs"><img src="../../assets/screenshots/ios/thumbs/ios-messages-01.webp" alt="Messages 01"></a>
+  <a href="../../assets/screenshots/ios/ios-connect-01.png" class="glightbox" data-gallery="ios-main-tabs"><img src="../../assets/screenshots/ios/thumbs/ios-connect-01.webp" alt="Connect 01"></a>
+  <a href="../../assets/screenshots/ios/ios-nodes-01.png" class="glightbox" data-gallery="ios-main-tabs"><img src="../../assets/screenshots/ios/thumbs/ios-nodes-01.webp" alt="Nodes 01"></a>
+  <a href="../../assets/screenshots/ios/ios-map-01.png" class="glightbox" data-gallery="ios-main-tabs"><img src="../../assets/screenshots/ios/thumbs/ios-map-01.webp" alt="Map 01"></a>
+  <a href="../../assets/screenshots/ios/ios-settings-01.png" class="glightbox" data-gallery="ios-main-tabs"><img src="../../assets/screenshots/ios/thumbs/ios-settings-01.webp" alt="Settings 01"></a>
+</div>
+
+---
+
+## Nodi e dettagli
+
+La tab **Nodes** ti fa vedere chi “senti” nella rete e ti dà dettagli utili (ultimo contatto, hop, hardware, ecc.).
+
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/ios/ios-nodes-01.png" class="glightbox" data-gallery="ios-nodes"><img src="../../assets/screenshots/ios/thumbs/ios-nodes-01.webp" alt="Nodes 01"></a>
+  <a href="../../assets/screenshots/ios/ios-nodes-02.png" class="glightbox" data-gallery="ios-nodes"><img src="../../assets/screenshots/ios/thumbs/ios-nodes-02.webp" alt="Nodes 02"></a>
+  <a href="../../assets/screenshots/ios/ios-node-info-01.png" class="glightbox" data-gallery="ios-nodes"><img src="../../assets/screenshots/ios/thumbs/ios-node-info-01.webp" alt="Node Info 01"></a>
+  <a href="../../assets/screenshots/ios/ios-node-info-02.png" class="glightbox" data-gallery="ios-nodes"><img src="../../assets/screenshots/ios/thumbs/ios-node-info-02.webp" alt="Node Info 02"></a>
+</div>
+
+---
+
+## Dove andare dopo
+
+- **Connessione**: come collegarsi al nodo (Bluetooth/Wi‑Fi)
+- **Messaggi & canali**: chat, DM, QR canali
+- **Mappa & offline**: Mesh Map e uso pratico
+- **Configurazioni**: Settings e moduli

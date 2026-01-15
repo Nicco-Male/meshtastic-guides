@@ -4,7 +4,6 @@ MQTT can publish Meshtastic data (telemetry, position, messages) to an IP broker
 
 Be careful with scope and privacy, especially on public networks.
 
-
 ## New pages
 
 - **Servers & credentials**

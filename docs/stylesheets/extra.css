@@ -1,21 +1,42 @@
 /* Piccoli ritocchi, senza stravolgere Material */
-:root {
-  --md-typeset-a-color: var(--md-accent-fg-color);
-}
 
-.md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  letter-spacing: -0.01em;
-}
-
-/* Badge “Android / iOS” nelle schede */
 .badge {
   display: inline-block;
-  padding: .15rem .45rem;
-  border-radius: 999px;
-  font-size: .75rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   line-height: 1.2;
   vertical-align: middle;
-  border: 1px solid var(--md-default-fg-color--lighter);
+  border: 1px solid rgba(0,0,0,.08);
 }
+
 .badge.android { background: rgba(76,175,80,.12); }
 .badge.ios { background: rgba(3,169,244,.12); }
+
+.screenshot-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.screenshot-grid img{
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.12);
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+/* Screenshot gallery */
+.md-typeset a.gl i { }
+.md-typeset a.gl img { }
+.md-typeset a.glightbox img {
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.12);
+  transition: transform .12s ease;
+}
+.md-typeset a.glightbox img:hover {
+  transform: translateY(-2px);
+}

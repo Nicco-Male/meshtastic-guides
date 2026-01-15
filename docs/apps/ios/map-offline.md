@@ -1,31 +1,19 @@
 # iOS: mappa & offline
 
-La mappa è utilissima, ma dipende da due cose:
-- che i nodi inviino posizione
-- che tu abbia un layer mappa disponibile (online o offline)
+Su iOS la mappa usa **MapKit** (stile Apple Maps).  
+Ti mostra nodi, posizione (se condivisa) e “tracce” utili per capire copertura e collegamenti.
 
 ---
 
-## Offline: cosa significa davvero
+## Mappa (Mesh Map)
 
-Offline vuol dire che:
-- le mappe di base vengono “salvate” sul telefono
-- puoi vedere le tile anche senza connessione dati
-
-Nota: i dettagli dipendono dall’app e dal sistema (Apple Maps/MapKit).
-
----
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/ios/ios-map-01.png" class="glightbox" data-gallery="ios-map"><img src="../../assets/screenshots/ios/thumbs/ios-map-01.webp" alt="Map 01"></a>
+  <a href="../../assets/screenshots/ios/ios-map-02.png" class="glightbox" data-gallery="ios-map"><img src="../../assets/screenshots/ios/thumbs/ios-map-02.webp" alt="Map 02"></a>
+</div>
 
 ## Consigli pratici
 
-- Per nodi fissi: posizione fissa + invio raro
-- Per nodi mobili: intervalli sensati
-- Se vuoi privacy: riduci precisione e/o disabilita posizione su canali pubblici
-
----
-
-## “Mappa grigia / vuota”
-
-- nessuna posizione ricevuta
-- mappe non scaricate / offline non configurato
-- permessi posizione negati
+- Se non vedi posizioni: controlla in **Position** che la condivisione sia attiva (e che il nodo abbia GPS o posizione).
+- La mappa è utile anche senza GPS: vedi comunque nodi e ultimi “heard”.
+- Se vuoi usarla “tipo radio”, riduci la frequenza di aggiornamento posizione per non intasare il mesh.

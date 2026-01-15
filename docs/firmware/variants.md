@@ -1,8 +1,5 @@
 # Varianti firmware (Italia)
 
-![Scelta firmware (Italia)](../assets/diagrams/firmware-italy-choices.svg)
-
-
 In Italia, nella pratica, trovi quasi sempre **due scelte**:
 
 1) **Firmware ufficiale Meshtastic**

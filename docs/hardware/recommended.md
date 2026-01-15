@@ -1,8 +1,5 @@
 # Hardware consigliato
 
-![Scelta hardware per use-case](../assets/diagrams/hardware-chooser.svg)
-
-
 Questa pagina non è una “classifica universale”: è una guida pratica per scegliere **in base all’uso**.
 
 Meshtastic gira su tantissimi dispositivi (RAK, LILYGO, Heltec, Seeed, ecc.) e l’elenco ufficiale è lungo.

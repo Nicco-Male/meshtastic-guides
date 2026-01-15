@@ -1,5 +1,15 @@
 # App Android: panoramica
 
+## Screenshot (Android)
+
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/android/android-home-empty.webp"><img src="../../assets/screenshots/android/android-home-empty.webp" alt="Fresh install: schermata Nodes vuota"></a>
+  <a href="../../assets/screenshots/android/android-pairing-list.webp"><img src="../../assets/screenshots/android/android-pairing-list.webp" alt="Connessione: lista dispositivi Bluetooth"></a>
+  <a href="../../assets/screenshots/android/android-nav-connected.webp"><img src="../../assets/screenshots/android/android-nav-connected.webp" alt="Connessione: nodo collegato"></a>
+</div>
+
+> Screenshot ufficiali dal sito Meshtastic (Android App).
+
 L’app Meshtastic per Android è in genere la più “completa” e usata, e supporta connessioni via:
 
 - Bluetooth

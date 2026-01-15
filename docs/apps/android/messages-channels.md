@@ -1,5 +1,9 @@
 # Android: messaggi & canali
 
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/android/android-message-states.webp"><img src="../../assets/screenshots/android/android-message-states.webp" alt="Icone stato messaggi"></a>
+</div>
+
 Questa pagina copre:
 
 - invio messaggi su canali

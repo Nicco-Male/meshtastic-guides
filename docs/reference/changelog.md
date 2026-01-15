@@ -18,3 +18,6 @@ Formato consigliato:
 - Sezioni aggiornate
 - Cosa cambia per il lettore
 - 2026-01-14: integrazione MQTT/hardware/firmware + diagrammi (IT/EN)
+- 2026-01-14: aggiunta galleria screenshot iOS (60 immagini) e integrazione nelle pagine iOS
+- 2026-01-15: rimossa pagina galleria screenshot iOS; screenshot integrati solo nelle pagine dove servono
+- 2026-01-15: fix iOS screenshot inline (no link badges), rimosse pagine inutili (howto/galleria), path corretti

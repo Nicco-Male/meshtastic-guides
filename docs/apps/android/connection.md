@@ -1,7 +1,9 @@
 # Android: connessione al nodo (Bluetooth / Wi‑Fi)
 
-![Schema rapido connessione](../../assets/diagrams/app-connection-flow.svg)
-
+<div class="screenshot-grid">
+  <a href="../../assets/screenshots/android/android-pairing-list.webp"><img src="../../assets/screenshots/android/android-pairing-list.webp" alt="Lista dispositivi Bluetooth"></a>
+  <a href="../../assets/screenshots/android/android-nav-connected.webp"><img src="../../assets/screenshots/android/android-nav-connected.webp" alt="Schermata Connessione: nodo collegato"></a>
+</div>
 
 Questa guida assume che il nodo sia già acceso.
 
