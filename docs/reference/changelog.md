@@ -11,6 +11,12 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 
 ---
 
+## 2026-01-15
+- Aggiunta guida per comparire sulla mappa LoRaItalia nella sezione Mappe
+- Aggiornata la navigazione per includere la nuova pagina
+
+---
+
 ## 2026-01-14
 - Prima struttura del sito (MkDocs + Material)
 - Sezioni base: Fondamentali, App, Firmware, Hardware, MQTT, Mappe, Reference
