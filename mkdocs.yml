@@ -170,6 +170,7 @@ nav:
 
   - Mappe:
       - Panoramica: maps/index.md
+      - Come apparire sulla mappa LoRaItalia: maps/loraitalia-map.md
       - Offline maps iOS: maps/ios-offline.md
       - Tile / download: maps/tiles-download.md
       - Device UI maps (T-Deck, ecc.): maps/device-ui.md
