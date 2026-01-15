@@ -78,6 +78,7 @@ nav:
       - Panoramica: fundamentals/index.md
       - Canali & chiavi (PSK): fundamentals/channels-psk.md
       - Regione & preset LoRa: fundamentals/region-presets.md
+      - Come funziona la mesh: fundamentals/mesh-theory.md
       - Hop limit & routing: fundamentals/hops-routing.md
       - Bluetooth vs Wi‑Fi: fundamentals/bt-vs-wifi.md
 

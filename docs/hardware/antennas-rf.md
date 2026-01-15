@@ -45,3 +45,28 @@ Attenzione a:
 ### “RSSI ok ma SNR pessimo”
 - possibile rumore/interferenze
 - migliorare posizione e lontananza da elettronica rumorosa
+
+---
+
+## Troubleshooting avanzato (antenne, rumore, normativa)
+
+### “Portata bassa nonostante antenna buona”
+Possibili cause:
+- antenna **fuori banda** (es. 915 MHz usata su 868 MHz)
+- cavo lungo o scadente (perdite reali)
+- connessione SMA/U.FL non serrata o con adattatore difettoso
+
+### “Messaggi instabili o RSSI che oscilla”
+Controlla:
+- **interferenze locali** (alimentatori, router Wi‑Fi, dispositivi industriali)
+- posizione: allontanati da metallo e schermature
+- prova a spostare il nodo di 1–2 metri (a volte cambia tutto)
+
+### “Dubbi sulla banda/regione”
+Se la regione è sbagliata:
+- potresti essere **fuori legge** (potenza/frequenza)
+- potresti **non agganciare** gli altri nodi
+
+Se hai nodi in Paesi diversi, verifica:
+- **EU_868** vs **US_915/AU_915**
+- canali e limiti di potenza/duty‑cycle specifici
