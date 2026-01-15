@@ -26,6 +26,16 @@ Le app ufficiali sono il modo più comodo per:
 
 ---
 
+## Programmi di gestione dei nodi
+
+Oltre alle app ufficiali, esistono strumenti alternativi utili per monitorare e gestire la rete:
+
+- **MeshSense**: dashboard per vedere i nodi, lo stato e i messaggi in tempo reale.
+- **Malla**: interfaccia web per visualizzare la mesh, i canali e le posizioni.
+- **Altri tool community**: script e utilità per automazioni, integrazioni e mappe personalizzate.
+
+---
+
 ## Dove andare adesso
 
 - **Android → Connessione** se usi un telefono Android
