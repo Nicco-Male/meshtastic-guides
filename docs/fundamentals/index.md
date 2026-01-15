@@ -1,4 +1,4 @@
-# Fondamenta
+# Fondamentali
 
 Prima di entrare nelle app e nelle mille opzioni, conviene fissare i concetti che determinano il 90% della qualità della rete:
 
