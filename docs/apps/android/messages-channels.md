@@ -64,4 +64,4 @@ Cause comuni:
 - troppa telemetria / range test
 - RSSI/SNR scarsi (antenna / posizione)
 
-Vedi anche: Fondamenta → hop limit & routing.
+Vedi anche: Fondamentali → hop limit & routing.

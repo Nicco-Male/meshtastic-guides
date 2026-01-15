@@ -29,9 +29,9 @@ Ogni nodo può inoltrare (“rebroadcast”) i pacchetti, estendendo la copertur
 5. (Se serve) **condividi il canale** via QR / link (PSK e parametri devono combaciare).
 
 👉 Trovi i dettagli nelle sezioni:
-- **Fondamenta → Regione & preset LoRa**
+- **Fondamentali → Regione & preset LoRa**
 - **App → Connessione**
-- **Fondamenta → Canali & chiavi (PSK)**
+- **Fondamentali → Canali & chiavi (PSK)**
 
 ---
 
@@ -60,7 +60,7 @@ La LoRa è potente, ma è anche una risorsa limitata: poche decine di byte alla 
 
 ## Struttura del sito
 
-- **Fondamenta**: concetti base (canali, PSK, preset, hop/routing, connessioni).
+- **Fondamentali**: concetti base (canali, PSK, preset, hop/routing, connessioni).
 - **App**: Android, iOS e “cosa cambia davvero”.
 - **Firmware**: update, preset, backup/restore config.
 - **Hardware**: antenne, alimentazione, GPS/sensori.

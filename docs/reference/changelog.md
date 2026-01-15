@@ -13,7 +13,7 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 
 ## 2026-01-14
 - Prima struttura del sito (MkDocs + Material)
-- Sezioni base: Fondamenta, App, Firmware, Hardware, MQTT, Mappe, Reference
+- Sezioni base: Fondamentali, App, Firmware, Hardware, MQTT, Mappe, Reference
 - Popolate pagine iniziali in italiano
 
 ---

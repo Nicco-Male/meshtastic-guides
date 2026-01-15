@@ -30,4 +30,4 @@ Le app ufficiali sono il modo più comodo per:
 
 - **Android → Connessione** se usi un telefono Android
 - **iOS → Connessione** se usi iPhone/iPad
-- Se vuoi “capire” prima di “toccare”: **Fondamenta**
+- Se vuoi “capire” prima di “toccare”: **Fondamentali**
