@@ -74,3 +74,16 @@ Nota: la UI può variare leggermente tra app e versione firmware, ma i concetti 
 
 3. **Preset diversi nello stesso gruppo**  
    Se la community usa un preset comune (es: MediumFast), restare allineati aiuta tutti.
+
+---
+
+## Regole RF (EU vs altri Paesi): checklist rapida
+
+La regione non è un dettaglio “software”: riflette **limiti reali di legge**.
+
+- **EU_868**: vincoli su potenza e duty cycle → evita preset lenti se la rete è densa.
+- **US_915 / AU_915**: regole diverse su canali e potenze → **non copiare** configurazioni EU.
+- **AS_923**: usa parametri specifici del Paese (alcuni hanno canali e potenze diverse).
+
+!!! tip "Regola pratica"
+    Se viaggi o sposti i nodi, **verifica sempre la regione** prima di accendere i dispositivi.

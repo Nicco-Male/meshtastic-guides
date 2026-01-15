@@ -5,6 +5,7 @@ Prima di entrare nelle app e nelle mille opzioni, conviene fissare i concetti ch
 - **Regione** e **preset LoRa** (modem preset)
 - **Canali**, **PSK** e condivisione
 - **Hop limit** e comportamento di inoltro (“rebroadcast”)
+- **Mesh**: routing, hop limit e trade‑off
 - Differenza tra connessione **Bluetooth** e **Wi‑Fi**
 
 !!! info "Regola d’oro"
@@ -16,4 +17,5 @@ Prima di entrare nelle app e nelle mille opzioni, conviene fissare i concetti ch
 - Se stai iniziando in Italia: **Regione & preset LoRa**
 - Se non riesci a parlare con altri nodi: **Canali & chiavi (PSK)**
 - Se “la rete è lenta” o piena di spam: **Hop limit & routing**
+- Se vuoi capire “perché funziona così”: **Come funziona la mesh**
 - Se non ti connetti dal telefono: **Bluetooth vs Wi‑Fi**
