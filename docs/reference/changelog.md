@@ -4,6 +4,13 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 
 ---
 
+## 2026-01-20
+- Aggiunta pagina Troubleshooting/FAQ in IT/EN
+- Inserita sezione Risorse esterne con link utili
+- Introdotte linee guida contributi e template per issue/PR
+
+---
+
 ## 2026-01-14
 - Prima struttura del sito (MkDocs + Material)
 - Sezioni base: Fondamenta, App, Firmware, Hardware, MQTT, Mappe, Reference
