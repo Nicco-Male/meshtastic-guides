@@ -12,6 +12,11 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 ---
 
 ## 2026-01-15
+- Aggiunta sezione programmi di gestione dei nodi nelle App
+
+---
+
+## 2026-01-15
 - Aggiunta guida per comparire sulla mappa LoRaItalia nella sezione Mappe
 - Aggiornata la navigazione per includere la nuova pagina
 
