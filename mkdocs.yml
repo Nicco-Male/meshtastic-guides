@@ -130,5 +130,7 @@ nav:
       - Device UI maps (T-Deck, ecc.): maps/device-ui.md
 
   - Reference:
+      - Troubleshooting & FAQ: troubleshooting.md
       - Glossario: reference/glossary.md
+      - Risorse esterne: reference/resources.md
       - Changelog del sito: reference/changelog.md
