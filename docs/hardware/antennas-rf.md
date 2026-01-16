@@ -9,6 +9,7 @@ Se Meshtastic fosse un videogame, l’antenna sarebbe il pezzo “legendary”.
 1. **Antenna giusta per la banda** (EU_868 ≈ 868 MHz)
 2. **Cavo corto** (ogni metro di cavo scadente è un nemico)
 3. **Posizione alta e libera** (line-of-sight vince)
+4. **Antenna sempre collegata prima di accendere**: appena ricevuto il device, monta l’antenna prima della prima accensione e **spegni sempre** il nodo prima di svitarla o sostituirla.
 
 ---
 
