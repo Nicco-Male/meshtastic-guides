@@ -4,6 +4,11 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 
 ---
 
+## 2026-01-16
+- Aggiunta nota su collegare l’antenna prima della prima accensione e spegnere il nodo prima di sostituirla
+
+---
+
 ## 2026-01-20
 - Aggiunta pagina Troubleshooting/FAQ in IT/EN
 - Inserita sezione Risorse esterne con link utili
