@@ -4,6 +4,11 @@ Qui annotiamo le modifiche alle guide (non al firmware Meshtastic).
 
 ---
 
+## 2026-01-21
+- Aggiornate note su accesso al broker MQTT LoraItalia e FAQ mappa LoRaItalia
+
+---
+
 ## 2026-01-16
 - Aggiunta nota su collegare l’antenna prima della prima accensione e spegnere il nodo prima di sostituirla
 

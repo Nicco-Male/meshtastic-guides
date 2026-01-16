@@ -51,6 +51,13 @@ Esempio (placeholder):
 - **Password:** `BROKER_LORAITALIA_PASS`
 - **Root topic:** (dipende dalla rete; spesso `msh/EU_868` o simili)
 
+### Accesso al broker LoraItalia (link ufficiale)
+LoraItalia non incoraggia l’uso del broker MQTT **se non per facilitare l’ingresso in mesh di zone isolate**,
+ma l’accesso è libero per chi deve configurare un gateway. Le istruzioni ufficiali di configurazione
+sono disponibili qui:
+
+- <https://www.loraitalia.it/d0b9f8a5-7046-4dfd-bab5-61c6fac55dc8/>
+
 ---
 
 ## 3) Il tuo broker (consigliato per reti serie)

@@ -142,6 +142,14 @@ Ricordati di adeguare i valori alla tua posizione reale.
 
 La lista nell’app mostra i nodi che ricevi via radio, mentre il sito mostra solo quelli che raggiungono il server MQTT di LoRaItalia. Se nella tua zona non c’è un nodo connesso a Internet, potresti vedere altri nodi localmente ma nessuno dei vostri pacchetti viene inoltrato al server.
 
+### Mi serve accesso a MQTT per comparire in mappa?
+
+No. I dati del tuo nodo viaggiano nella rete mesh e **compari in mappa quando almeno un nodo collegato a MQTT inoltra i pacchetti**. Ricordati di:
+
+- abilitare la condivisione della posizione sul canale principale (anche approssimativa va bene);
+- disattivare **Smart Position** sui nodi fissi, altrimenti la posizione viene trasmessa solo una volta;
+- mantenere **OK to MQTT** attivo sul nodo.
+
 ### Devo abilitare Neighbor Info?
 
 Non è obbligatorio. Il modulo **Neighbor Info** serve a visualizzare la topologia dei link sulla mappa e a valutare la qualità delle connessioni. Può essere utile sui nodi fissi ma va configurato con un intervallo di almeno **10.800 s** per non appesantire la rete.
